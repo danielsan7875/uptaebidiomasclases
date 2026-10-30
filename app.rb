@@ -5,7 +5,7 @@ set :server, :puma
 set :port, 4567
 set :root, File.dirname(__FILE__)
 set :views, settings.root + '/vista'
-set :public_folder, settings.root + '/assets' # <--- Esto permite leer logo.png, hero-bg.jpg, etc.
+set :public_folder, settings.root + '/assets'
 
 # Rutas de la Aplicación
 get '/' do
